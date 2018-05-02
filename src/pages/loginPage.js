@@ -14,6 +14,10 @@ const LoginPage = () => (
             <a href={'http://localhost:3000/auth/google'}>
                 log in with google
             </a>
+            <br />
+            <a href={'http://localhost:3000/auth/facebook'}>
+                log in with facebook
+            </a>
         </div>
     </div>
 );
