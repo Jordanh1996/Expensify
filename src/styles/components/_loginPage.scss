@@ -1,0 +1,16 @@
+.loginPage {
+    background: teal;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background: url('/images/bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.loginBox {
+    width: 25rem;
+    background: fade-out(white , .15);
+    text-align: center;
+}
