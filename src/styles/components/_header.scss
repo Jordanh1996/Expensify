@@ -1,0 +1,19 @@
+
+.header {
+    background: linear-gradient(90deg, $black-dark, $black);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: $font-size-l;
+    padding: $xs-size;
+    height: 4.2rem;
+}
+
+.header-item {
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: $red;
+    text-decoration: none;
+    cursor: pointer;
+}

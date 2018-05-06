@@ -1,0 +1,26 @@
+.expenseForm {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    width: 50rem !important;
+    margin-left: calc((100vw - 50rem) / 2);
+}
+
+.expenseForm-expense {
+    color: $red !important;
+}
+
+.expenseForm-income {
+    color: $blue !important;
+}
+
+.expenseForm-currency {
+    width: 8rem !important;
+    transform: translateY(1.07rem) !important;
+}
+
+.expenseForm-buttons {
+    justify-content: space-evenly;
+    display: flex;
+}
+

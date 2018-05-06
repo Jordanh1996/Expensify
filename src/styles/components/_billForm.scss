@@ -1,0 +1,10 @@
+.billForm {
+    text-align: center;
+    width: 40rem !important;
+    margin-left: calc((100vw - 40rem) / 2);
+}
+
+.billForm-but {
+    margin: $s-size;
+    box-shadow: 0 0 15px 1px $black-dark, 0 0 10px 2px $black !important;
+}

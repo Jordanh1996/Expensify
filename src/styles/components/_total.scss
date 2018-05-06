@@ -1,0 +1,59 @@
+%total {
+    text-align: center;
+    font-weight: 800;
+    box-shadow: 0 4px 10px 5px $black;
+}
+
+.total {
+    @extend %total;
+    background: linear-gradient(90deg, $black-dark, $black);
+}
+
+.total-income {
+    @extend %total;
+    background: linear-gradient(45deg, $blue, $blue-light);
+}
+
+.total-expense {
+    @extend %total;
+    background: linear-gradient(45deg, $red-light, $red-lighter);
+}
+
+.total-header {
+    font-size: $l-size;
+    text-shadow: 0 0 2px $black-light;
+}
+
+.total-header-income {
+    font-size: $l-size;
+    color: $blue-dark;
+    text-shadow: 0 0 2px $black-light;
+}
+
+.total-header-expense {
+    font-size: $l-size;
+    color: $red;
+    text-shadow: 0 0 2px $black-light;
+}
+
+.total-sum {
+    font-size: $font-size-xxxl;
+    text-shadow: 0 0 2px $black-light;
+}
+
+.total-sum-income {
+    font-size: $font-size-xxxl;
+    color: $blue-dark;
+    text-shadow: 0 0 2px $black-light;
+}
+
+.total-sum-expense {
+    font-size: $font-size-xxxl;
+    color: $red;
+    text-shadow: 0 0 2px $black-light;
+}
+
+.total-dropDown {
+    width: 8rem !important;
+    transform: translateX(calc(50vw - 4rem));
+}

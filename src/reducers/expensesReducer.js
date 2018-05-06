@@ -1,4 +1,4 @@
-import { ADD_EXPENSE, EDIT_EXPENSE, REMOVE_EXPENSE } from '../actions/actionTypes';
+import { ADD_EXPENSE, EDIT_EXPENSE, REMOVE_EXPENSE, SET_EXPENSES, REMOVE_EXPENSES } from '../actions/actionTypes';
 
 export default (state = [], action) => {
     switch (action.type) {
@@ -9,7 +9,7 @@ export default (state = [], action) => {
             ];
 
         case EDIT_EXPENSE:
-            state.map((expense) => {
+            return state.map((expense) => {
                 if (action.expense.id == expense.id) {
                     return action.expense
                 }
@@ -17,7 +17,13 @@ export default (state = [], action) => {
             });
 
         case REMOVE_EXPENSE:
-            state.filter((expense) => expense.id == action.id);
+            return state.filter((expense) => expense.id != action.id);
+
+        case SET_EXPENSES:
+            return action.expenses;
+
+        case REMOVE_EXPENSES:
+            return [];
 
         default:
             return state;

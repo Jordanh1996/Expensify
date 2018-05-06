@@ -1,0 +1,15 @@
+.billsPage {
+    background: linear-gradient(120deg, $black, $black-light);
+    box-shadow: 0 0 4px 2px $black-light;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.billsPage-desc {
+    text-align: center;
+    color: white;
+    margin: $l-size;
+    font-size: $font-size-l;
+}

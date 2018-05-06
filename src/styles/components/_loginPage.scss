@@ -13,4 +13,96 @@
     width: 25rem;
     background: fade-out(white , .15);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $s-size;
+    border-radius: 1rem;
+}
+
+%login-text {
+    margin-left: 1rem;
+    font-size: $font-size-s;
+    font-weight: 550;
+    user-select: none;
+}
+
+%login-image {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+
+%login-button-inner {
+    display: flex;
+    box-shadow: 0 0 8px 0.5px $black-light;
+    padding: 0.35rem;
+    border-radius: $l-size;
+}
+
+.googleButton {
+    background: radial-gradient(circle, $red, $red-light);
+    text-decoration: none;
+    border-radius: $l-size;
+    padding: 0.3rem;
+    position: relative;
+    width: 18rem;
+    box-shadow: 0 0 4px 0.5px $black-light;
+    &:hover {
+        opacity: 0.93;
+    }
+}
+
+.googleButton-inner {
+    @extend %login-button-inner;
+    &:active {
+        box-shadow: 0 0 8px 0.5px $black-lighter inset;
+        .google-text, .google-image {
+            transform: translateY(1px);
+        }
+    }
+}
+
+.google-image {
+    @extend %login-image;
+}
+
+.github-image {
+    @extend %login-image;
+}
+
+.google-text {
+    @extend %login-text;
+    color: white;
+    text-shadow: 0 0 3px $white-ivory;
+}
+
+.github-text {
+    @extend %login-text;
+    color: $black;
+    text-shadow: 0 0 2px $black;
+}
+
+.githubButton {
+    background: radial-gradient(circle, $white, $white-grey);
+    text-decoration: none;
+    border-radius: $l-size;
+    padding: 0.3rem;
+    position: relative;
+    width: 18rem;
+    box-shadow: 0 0 4px 0.5px $black-light;
+    &:hover {
+        opacity: 0.93;
+    }
+}
+
+.githubButton-inner {
+    @extend %login-button-inner;
+    &:active {
+        box-shadow: 0 0 8px 0.5px $black-lighter inset;
+        .github-text, .github-image {
+            transform: translateY(1px);
+        }
+    }
 }

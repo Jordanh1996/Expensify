@@ -1,25 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import GoogleButton from '../components/buttons/googleButton';
+import GithubButton from '../components/buttons/githubButton';
 
-const google = () => {
-
-}
 
 const LoginPage = () => (
     <div className='loginPage'>
         <div className='loginBox'>
-            This is login loginPage
+            <GoogleButton />
             <br />
-            <a href={'http://localhost:3000/auth/google'}>
-                log in with google
-            </a>
-            <br />
-            <a href={'http://localhost:3000/auth/facebook'}>
-                log in with facebook
-            </a>
+            <GithubButton />
         </div>
-    </div>
+    </div >
 );
 
 export default LoginPage;

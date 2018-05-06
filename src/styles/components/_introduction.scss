@@ -1,0 +1,25 @@
+.introduction {
+    background: linear-gradient(90deg, $black-dark, $black);
+    box-shadow: 0 0 10px 3px $black-light;
+    align-items: center;
+    text-align: center;
+    padding: $xl-size;
+    padding-top: 10rem;
+    transform: skewY(6deg) translateY(-7rem);
+}
+
+.introduction-reverseSkew {
+    transform: skewY(-6deg);
+}
+
+.introduction-primary {
+    font-size: $font-size-xxxl;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+}
+
+.introduction-secondary {
+    font-size: $font-size-l;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}

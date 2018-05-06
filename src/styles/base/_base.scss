@@ -5,3 +5,17 @@
 html {
     height: 100vh;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: $red;
+    height: 100%;
+    width: 100%;
+    background: $white-ivory;
+    overflow: hidden;
+}
+
+#app {
+    height: 100vh;
+}

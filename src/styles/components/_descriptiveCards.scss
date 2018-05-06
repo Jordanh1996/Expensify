@@ -1,0 +1,49 @@
+.descriptiveCards {
+    display: flex;
+    flex-direction: row;
+    background: $white-ivory;
+}
+
+.descriptiveCard {
+    margin: 7rem $s-size;
+    width: 30%;
+    text-align: center;
+}
+
+.descriptiveCard-text {
+    margin: $s-size;
+    text-align: left;
+}
+
+.descriptiveCard-title {
+    font-size: $font-size-xl;
+    text-weight: 600;
+}
+
+@keyframes rotating {
+    from {
+		transform: rotate(0deg);
+    }
+    to {
+		transform: rotate(360deg);
+    }
+}
+
+.descriptiveCard-img-react {
+    width: 15rem;
+    height: 10rem;
+    margin-bottom: $s-size;
+    margin-top: $m-size;
+	animation: rotating 14s linear infinite;
+}
+
+.descriptiveCard-simple {
+    font-size: $font-size-xl;
+    text-align: center;
+    text-shadow: 0 0 3px $white-ivory;
+    text-decoration: underline;
+}
+
+.descriptiveCard-img-currencies {
+    margin-bottom: 0;
+}

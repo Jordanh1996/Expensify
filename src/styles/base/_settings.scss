@@ -1,18 +1,30 @@
 // Colors
-$dark-grey: #333;
-$blue: #1c88bf;
-$blue-light: #E0F7FA;
-$off-white: #f7f7f7;
-$grey: #ECEFF1;
-$blue-dark: #283593;
+$black-lighter: #454545;
+$black-light: #303030;
+$black: #252525;
+$black-dark: #101010;
+$white-ivory: #e8e8e8;
+$white: #F7F7F7;
+$white-grey: #EEEEEE;
+$red: #ff3333;
+$red-light: #ff4d4d;
+$red-lighter: #FC9292;
+$blue: #2196F3;
+$blue-light: #80D9F7;
+$blue-dark: #1976D2;
 
 //Font Size
-$font-size-large: 1.8rem;
-$font-size-small: 1.4rem;
+$font-size-xxxl: 5rem;
+$font-size-xl: 3rem;
+$font-size-l: 1.8rem;
+$font-size-m: 1.6rem;
+$font-size-s: 1.4rem;
+$font-size-xs: 1rem;
 
 //Spacing
+$xs-size: 0.8rem;
 $s-size: 1.3rem;
 $m-size: 1.6rem;
 $l-size: 3.2rem;
 $xl-size: 4.8rem;
-$desktop-breakpoint: 45rem;
+$desktop-breakpoint: 85rem;

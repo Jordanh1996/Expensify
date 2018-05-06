@@ -1,0 +1,13 @@
+.getStarted {
+    background: linear-gradient(30deg, $black, $black-light);
+    text-align: center;
+    padding: $m-size;
+    box-shadow: 0 0 4px 2px $black-light;
+}
+
+.getStarted-description {
+    font-size: $font-size-l;
+    margin: $m-size;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+}

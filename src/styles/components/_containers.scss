@@ -1,0 +1,10 @@
+
+.containers__column {
+    flex-direction: column;
+    height: calc(100% - 4.2rem);
+}
+
+.container__overflow {
+    overflow: auto;
+    height: 100%;
+}

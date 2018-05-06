@@ -1,0 +1,24 @@
+.billsList {
+    margin: 1rem 0 3rem;
+    width: 80%;
+    box-shadow: 0 0 15px 2px $black-dark, 0 0 10px 4px $black;
+}
+
+.billsList-row {
+
+    &:hover {
+        .billsList-button {
+            opacity: 1 !important;
+            transform: scale(1);
+        }
+        background: $blue;
+    }
+}
+
+.billsList-button {
+    display: flex !important;
+    opacity: 0 !important;
+    margin: 0.3rem;
+    transform: scale(0);
+    transition: 0.2s linear;
+}

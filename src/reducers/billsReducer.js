@@ -1,4 +1,4 @@
-import { ADD_BILL, EDIT_BILL, REMOVE_BILL } from '../actions/actionTypes';
+import { ADD_BILL, EDIT_BILL, REMOVE_BILL, SET_BILLS, REMOVE_BILLS, PENDING_BILLS } from '../actions/actionTypes';
 
 export default (state = [], action) => {
     switch (action.type) {
@@ -6,7 +6,7 @@ export default (state = [], action) => {
             return [
                 action.bill,
                 ...state
-            ]
+            ];
 
         case EDIT_BILL:
             return state.map((bill) => {
@@ -17,7 +17,16 @@ export default (state = [], action) => {
             });
 
         case REMOVE_BILL:
-            state.filter((bill) => bill.id == action.id);
+            return state.filter((bill) => bill.id !== action.id);
+
+        case SET_BILLS:
+            return action.bills;
+
+        case PENDING_BILLS:
+            return action.bills;
+
+        case REMOVE_BILLS:
+            return [];
 
         default:
             return state;

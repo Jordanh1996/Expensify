@@ -1,0 +1,15 @@
+.pageLoader-fullPage {
+    width: 12rem;
+    height: 12rem;
+    justify-content: center;
+    display: flex;
+    margin-left: calc(50vw - 6rem);
+    margin-top: calc(50vh - 14.2rem);
+}
+
+.loader {
+    display: flex;
+    width: 8rem;
+    height: 8rem;
+    margin-left: calc(50vw - 4rem);
+}

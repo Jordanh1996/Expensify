@@ -1,0 +1,42 @@
+%table-header {
+    font-size: $font-size-xl !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+    text-shadow: 0 0 2px $black-dark;
+}
+
+.table-header {
+    @extend %table-header;
+    color: $red !important;
+}
+
+.table-header-column {
+    font-size: $font-size-s !important;
+    font-weight: 600 !important;
+    color: $red !important;
+}
+
+.table-row-column {
+    font-size: $font-size-xs !important;
+}
+
+.table-header-column-income {
+    font-size: $font-size-s !important;
+    font-weight: 600 !important;
+    color: $blue !important;
+}
+
+.table-header-expense {
+    @extend %table-header;
+    color: $red !important;
+}
+
+.table-header-income {
+    @extend %table-header;
+    color: $blue !important;
+}
+
+.table-actions {
+    display: flex;
+    flex-direction: row;
+}
