@@ -1,15 +1,24 @@
-<h1>Blog Client</h1>
+<h1>Expensify Client</h1>
 
-<p>Link to web page: https://blog-jordan.herokuapp.com<p>
+<p>Link to web page: https://expensify-jordan.herokuapp.com<p>
 
 <h2>Description</h2>
-    <p>The purpose of the client side code is to provide a user interface that will allow the user to use the server routes with user inputs, and display the blogs that excist.</p>
-    <p>The web page purpose is to store text files in your user, the files are not private so everyone else can see your text files, but not edit them. This site is very handy for learning purposes to store your text documents on the server, and to share with other people.</p>
+    <p>This site is used to manage your expenses and incomes in a styled way and allows you to store all of your bills on the
+    database of the server.</p>
+    <p>Expensify offers over 30 different currencies for your choosing. You can mix different currencies in the same bill and
+    get the total of the amount in every currency you want.</p>
 
 <h2>Technologies</h2>
-    <ul>Framework: React with Redux.</ul>
-    <ul>React Libraries: react-router-dom, react-waypoint, react-modal.</ul>
-    <ul>Design Framework: Material-ui.</ul>
+    <ul>UI Library: React</ul>
+    <ul>Data Flow: Redux</ul>
+    <ul>Styling: Sass and Material-UI</ul>
+    <ul>Compiler: Babel</ul>
+    <ul>Bundler: Webpack</ul>
 
-<h2>Problems & Solutions</h2>
-    <ul>Scrollbar didn't work for some reason, used vh units instead of percentage for the height fixed it.</ul>
+<h2>Setup for development</h2>
+    <ul>Clone the project</ul>
+    <ul>Open the terminal</ul>
+    <ul>Go to the project folder</ul>
+    <ul>Run 'npm install'</ul>
+    <ul>Run 'npm run dev-server'</ul>
+    <ul>Visit 'http://localhost:8080/' on your browser</ul>
