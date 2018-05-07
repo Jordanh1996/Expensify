@@ -7,7 +7,7 @@ const GithubButton = () => (
     >
         <div className='githubButton-inner'>
             <img
-                src='/images/github.svg'
+                src='/images/githubicon.svg'
                 className='github-image'
             />
             <div className='github-text'>

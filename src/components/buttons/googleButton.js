@@ -7,7 +7,7 @@ const GoogleButton = () => (
     >
         <div className='googleButton-inner'>
             <img
-                src='/images/google.png'
+                src='/images/googleicon.png'
                 className='google-image'
             />
             <div className='google-text'>
