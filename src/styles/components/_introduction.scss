@@ -1,6 +1,6 @@
 .introduction {
     background: linear-gradient(90deg, $black-dark, $black);
-    box-shadow: 0 0 10px 3px $black-light;
+    filter: drop-shadow(0 3px 3px $black-light);
     align-items: center;
     text-align: center;
     padding: $xl-size;
