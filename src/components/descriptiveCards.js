@@ -60,7 +60,7 @@ const DescriptiveCards = () => (
                 amount of your expenses in the currency you choose.
                 <br />
                 The currency rates are retrieved from the European central bank and are updated
-                daily
+                daily.
             </p>
             <CardMedia>
                 <img src="/images/currencies.jpg" />
