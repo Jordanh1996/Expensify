@@ -11,7 +11,7 @@
 <h2>Technologies</h2>
     <ul>UI Library: React</ul>
     <ul>Data Flow: Redux</ul>
-    <ul>Styling: Sass and Material-UI</ul>
+    <ul>Styling: Scss and Material-UI</ul>
     <ul>Compiler: Babel</ul>
     <ul>Bundler: Webpack</ul>
 
